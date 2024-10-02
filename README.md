@@ -30,24 +30,25 @@ Make sure you have the following software installed on your machine:
     ```bash
    cd renovation-api
     ```
+2. **Clone the Repository**
     ```bash
     npm install
     ```
-    3. **Install Dependencies**
+3. **Create Database**
     ```bash
     CREATE DATABASE renovation_api;
     ```
-    ```bash
-    4. **Install Dependencies**
-    ```bash
+4. **Migrate Database**
     npx sequelize-cli db:migrate
     ```
     ```bash
     npx sequelize-cli db:seed:all
     ```
-    4. **Running the Application**
+5. **Running  Application**
     ```bash
     node index.js
     ```
-
+    cd renovation-frontend
+    ```bash
+    npm run start index.js
 
