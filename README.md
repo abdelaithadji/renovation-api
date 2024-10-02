@@ -52,6 +52,7 @@ The Renovation API is a RESTful API built with Node.js and Sequelize for managin
     node index.js
     ```
     ```bash 
-    cd renovation-frontend    
+    cd renovation-frontend
+    npm install   
     npm run start index.js
     ```
