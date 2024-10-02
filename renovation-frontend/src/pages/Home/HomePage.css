@@ -1,0 +1,92 @@
+/* Container général de la page */
+.homepage-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #f5f7fa;
+}
+
+/* Section bannière */
+.banner {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #4a90e2, #a1c4fd);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.banner-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.banner-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Container des fonctionnalités */
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* Boîte de chaque fonctionnalité */
+.feature-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: 1px solid #4a90e2;
+  color: #4a90e2;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.feature-link:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+/* Section bouton d'appel à l'action */
+.cta-container {
+  text-align: center;
+}
+
+.cta-button {
+  background: #4a90e2;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.cta-button:hover {
+  background: #357abd;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
