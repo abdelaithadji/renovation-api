@@ -30,8 +30,6 @@ Make sure you have the following software installed on your machine:
 2. **Install the App**
    ```bash
    cd renovation-api
-    ```
-    ```bash
     npm install
     ```
 3. **Create & migrate Database**
@@ -49,8 +47,6 @@ Make sure you have the following software installed on your machine:
     node index.js
     ```
     ```bash 
-    cd renovation-frontend
-    ```
-    ```bash
+    cd renovation-frontend    
     npm run start index.js
     ```
