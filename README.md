@@ -38,15 +38,19 @@ Make sure you have the following software installed on your machine:
     ```bash
     CREATE DATABASE renovation_api;
     ```
+    ```bash
     npx sequelize-cli db:migrate
+    ```
     ```bash
     npx sequelize-cli db:seed:all
     ```
 4. **Running  Application**
     ```bash
     node index.js
-    ```    
+    ```
+    ```bash 
     cd renovation-frontend
+    ```
     ```bash
     npm run start index.js
     ```
