@@ -2,24 +2,29 @@
 
 The Renovation API is a RESTful API built with Node.js and Sequelize for managing projects, clients, and entrepreneurs. This document outlines setup and running instructions.
 
-## Table of Contents
-
-- 📋 [Prerequisites](#prerequisites)
-- ⚙️ [Installation](#installation)
-- 🗄️ [Database Setup](#database-setup)
-- 🚀 [Running the Application](#running-the-application)
-- 📡 [API Endpoints](#api-endpoints)
-- 🤝 [Contributing](#contributing)
-- 📜 [License](#license)
-
 ## Prerequisites
-
-Make sure you have the following software installed on your machine:
 
 - [Node.js](https://nodejs.org/en/) (v14 or later)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [MariaDB](https://mariadb.org/download/)
 - [Git](https://git-scm.com/downloads)
+
+## API Endpoints
+
+  - **Clients**
+    - `GET /clients`: Retrieve all clients
+    - `POST /clients`: Create a new client
+    - `DELETE /clients/:id`: Delete a client by ID
+  
+  - **Entrepreneurs**
+    - `GET /entrepreneurs`: Retrieve all entrepreneurs
+    - `POST /entrepreneurs`: Create a new entrepreneur
+    - `DELETE /entrepreneurs/:id`: Delete an entrepreneur by ID
+  
+  - **Projects**
+    - `GET /projects`: Retrieve all projects
+    - `POST /projects`: Create a new project
+    - `DELETE /projects/:id`: Delete a project by ID
 
 ## Installation
 
