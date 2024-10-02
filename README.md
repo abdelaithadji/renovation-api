@@ -27,24 +27,23 @@ Make sure you have the following software installed on your machine:
    ```bash
    git clone git@github.com:abdelaithadji/renovation-api.git
     ```
-    ```bash
+2. **Install the App**
+   ```bash
    cd renovation-api
     ```
-2. **Clone the Repository**
     ```bash
     npm install
     ```
-3. **Create Database**
+3. **Create & migrate Database**
     ```bash
     CREATE DATABASE renovation_api;
     ```
-4. **Migrate Database**
     npx sequelize-cli db:migrate
     ```
     ```bash
     npx sequelize-cli db:seed:all
     ```
-5. **Running  Application**
+4. **Running  Application**
     ```bash
     node index.js
     ```
